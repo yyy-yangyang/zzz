@@ -1,0 +1,53 @@
+
+/*--------------SLIDER----------------*/
+
+#slider {
+	width: 100%;
+  
+}
+
+
+/*--------------CONTROLS--------------*/
+
+/*position controls*/
+.controls li {
+	top: 50%;
+	margin:-30px 10px 10px 100px;
+	display: none;
+}
+
+.controls li:nth-child(1) {
+	left: 0;
+}
+
+.controls li:nth-child(2) {
+	right: 80px;
+}
+#slider:hover .controls li{
+	display: block;
+}
+
+/*------------PAGINATION------------*/
+
+/*style pagination*/
+.pagination li {
+	background-color: #ddd;
+}
+
+.pagination li.active {
+	background-color: green;
+}
+
+
+/*-------------HELPERS----------------*/
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
